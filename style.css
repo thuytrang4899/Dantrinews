@@ -1,0 +1,132 @@
+/* header */
+
+.header {
+    padding: 1rem 0;
+}
+
+.header-logo img {
+    width: 180px;
+}
+
+span.header-content1 {
+    background-color: #1a7900;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+span.header-content2 {
+    padding: 4px 10px;
+    padding-left: 40px;
+    border: 1px solid rgb(121, 111, 111);
+    margin-left: -25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header-center {
+    margin-top: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background: #1a7900 !important;
+    padding: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+p {
+    margin-block-start: 0 !important;
+    margin-block-end: .5em;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #342c16;
+}
+
+main {
+    padding: 1rem 0;
+}
+
+main ul {
+    margin-left: -13px;
+}
+
+.feature {
+    margin: 2rem 0;
+}
+
+.dt-section__nav-item {
+    color: #616161;
+    display: block;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.dt-section__nav>li:first-child {
+    border-left-width: 0;
+    padding-left: 0;
+}
+
+ul.dt-section__nav {
+    margin-left: -30px;
+    padding-bottom: 2rem;
+}
+
+.dt-section__nav>li {
+    float: left;
+    margin-top: 8px;
+    border-left: 1px solid #c7c7c7;
+    padding: 0 6px;
+    list-style-type: none;
+}
+
+.dt-section__body h2.news-item__title {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.dt-section .highlight-event__title {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0 2px;
+    color: #06c;
+    border-top: 0;
+    display: block;
+}
+
+.dt-section {
+    background: #f4f6fa;
+    border-top: 2px solid #06c;
+    padding: 10px 20px;
+    margin-bottom: 2rem;
+}
+
+.dt-list__item {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .header-center {
+        display: none;
+    }
+}
+
+
+/* footer */
+
+footer {
+    background-color: #f4f4f4;
+    padding: 1rem 0;
+}

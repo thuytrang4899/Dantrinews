@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Dân Trí</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1.page-header__title {
+            font-size: 32px;
+            line-height: 1.5;
+            color: #06c !important;
+        }
+        
+        .news-item__content {
+            margin-left: -24px;
+            background-color: #f4f6fa;
+            height: 100%;
+            padding: 20px;
+        }
+        
+        h2.news-item__title {
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 23px;
+            margin: 1rem 0;
+        }
+        
+        h3.news-item__title {
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 23px;
+        }
+        
+        .content1 {
+            padding: 1rem 0;
+            border-bottom: 4px solid #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="header-logo">
+                            <img src="https://cdnweb.dantri.com.vn/bundle/static/assets/lg_dantri_dktop1.svg?v=1208093636">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 header-center">
+                        <span class="header-content1">
+                            THỐNG KÊ DỊCH & TIÊM CHỦNG COVID-19
+                        </span>
+                        <span class="header-content2">
+                            Tổng số ca: <span style="color: red;">1.367.433</span> Tử vong: <span style="color: red;">27.186</span>
+                        </span>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <div class="dropdown" style="text-align: right;">
+                            <i class='fa fa-search'></i>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown">
+                              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExIDQuNzE0YTMuOTI5IDMuOTI5IDAgMTAwIDcuODU3IDMuOTI5IDMuOTI5IDAgMDAwLTcuODU3eiIgZmlsbD0iIzQ0NDk1MyIvPjxwYXRoIGQ9Ik0xMSAwYTExIDExIDAgMTAxMSAxMUExMS4wMTIgMTEuMDEyIDAgMDAxMSAwem02LjI4IDE4LjAxM2EzLjkzIDMuOTMgMCAwMC0zLjkyMy0zLjg3SDguNjQzYTMuOTMgMy45MyAwIDAwLTMuOTIyIDMuODcgOS40MjkgOS40MjkgMCAxMTEyLjU2IDBoLS4wMDJ6IiBmaWxsPSIjNDQ0OTUzIi8+PC9zdmc+">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="login.html">Đăng kí</a></li>
+                                <li><a class="dropdown-item" href="register.html">Đăng nhập</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="sukien.html">Sự kiện</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="xahoi.html">Xã hội</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="thegioi.html">Thế giới</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kinhdoanh.html">Kinh doanh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="batdongsan.html">Bất động sản</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="thethao.html">Thể thao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="vieclam.html">Việc làm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="page-header__title">
+                Sự kiện
+            </h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img width="100%" src="https://icdn.dantri.com.vn/zoom/528_352/2021/12/11/2641831256264142154765747643441388498112975n-1639226536899.jpeg">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="news-item__content">
+                                <h3 class="news-item__title">
+                                    <a href="">
+                                        Nữ tài xế lái Mazda "húc" liên hoàn 5 ô tô trên đường
+                                    </a>
+                                </h3>
+                                <p>
+                                    (Dân trí) - Đang đi trên đường, chiếc xe ô tô con bất ngờ đâm vào một chiếc "xế hộp" khác đang đỗ ven đường rồi tiếp tục gây tai nạn liên hoàn giữa 5 phương tiện.
+                                </p>
+                                <p>
+                                    (Dân trí) - Đang đi trên đường, chiếc xe ô tô con bất ngờ đâm vào một chiếc "xế hộp" khác đang đỗ ven đường rồi tiếp tục gây tai nạn liên hoàn giữa 5 phương tiện.
+                                </p>
+                                <p>
+                                    (Dân trí) - Đang đi trên đường, chiếc xe ô tô con bất ngờ đâm vào một chiếc "xế hộp" khác đang đỗ ven đường rồi tiếp tục gây tai nạn liên hoàn giữa 5 phương tiện.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content1 feature">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img width="100%" src="https://icdn.dantri.com.vn/zoom/255_170/2021/12/10/quet-ma-qrcat-linh-ha-dong-crop-1639116787602.jpeg">
+                                <div class="">
+                                    <h2 class="news-item__title">
+                                        <a href="">3 giây quét mã QR bằng "mắt thần" ở ga Cát Linh - Hà Đông</a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img width="100%" src="https://icdn.dantri.com.vn/zoom/255_170/2021/12/10/nguyen-duc-chung3-1639114934213.jpeg">
+                                <div class="">
+                                    <h2 class="news-item__title">
+                                        <a href="">Cựu Chủ tịch Hà Nội Nguyễn Đức Chung phản bác cáo trạng</a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img width="100%" src="https://icdn.dantri.com.vn/zoom/255_170/2021/11/13/tacduong41601261109818-1636771679933.jpeg">
+                                <div class="">
+                                    <h2 class="news-item__title">
+                                        <a href="">Hà Nội đầu tư hơn 1.800 tỷ đồng "khơi thông" ùn tắc</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content2 feature">
+                        <div class="row">
+                            <div class="">
+                                <div class="dt-list">
+                                    <div class="dt-list__item">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/11/15/lanh-dao-kiem-lam-dak-nong-2021-anh-chup-man-hinh-crop-1636972099735.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Hạt trưởng kiểm lâm gác chân lên bàn làm đơn xin từ chức
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/12/10/singaporereuters-crop-1639117019738.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Singapore ghi nhận ca nhiễm Omicron cộng đồng đầu tiên
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/12/10/evergrandeepa-crop-1639114829549.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Evergrande bị vỡ nợ: Điều gì sẽ xảy ra tiếp theo?
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/06/29/me-linh-4-crop-1624901379999.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Gần 400 dự án chậm tiến độ tại Hà Nội: Thu hồi được 10
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/12/11/pogba-12-crop-1639189359193.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        HLV Rangnick tuyên bố không giữ chân nếu Paul Pogba muốn rời Man Utd
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img width="100%" src="https://icdn.dantri.com.vn/zoom/528_352/2021/12/11/2641831256264142154765747643441388498112975n-1639226536899.jpeg">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="news-item__content">
+                                <h3 class="news-item__title">
+                                    <a href="">
+                                        Nữ tài xế lái Mazda "húc" liên hoàn 5 ô tô trên đường
+                                    </a>
+                                </h3>
+                                <p>
+                                    (Dân trí) - Đang đi trên đường, chiếc xe ô tô con bất ngờ đâm vào một chiếc "xế hộp" khác đang đỗ ven đường rồi tiếp tục gây tai nạn liên hoàn giữa 5 phương tiện.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content1 feature">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img width="100%" src="https://icdn.dantri.com.vn/zoom/255_170/2021/12/10/quet-ma-qrcat-linh-ha-dong-crop-1639116787602.jpeg">
+                                <div class="">
+                                    <h2 class="news-item__title">
+                                        <a href="">3 giây quét mã QR bằng "mắt thần" ở ga Cát Linh - Hà Đông</a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img width="100%" src="https://icdn.dantri.com.vn/zoom/255_170/2021/12/10/nguyen-duc-chung3-1639114934213.jpeg">
+                                <div class="">
+                                    <h2 class="news-item__title">
+                                        <a href="">Cựu Chủ tịch Hà Nội Nguyễn Đức Chung phản bác cáo trạng</a>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img width="100%" src="https://icdn.dantri.com.vn/zoom/255_170/2021/11/13/tacduong41601261109818-1636771679933.jpeg">
+                                <div class="">
+                                    <h2 class="news-item__title">
+                                        <a href="">Hà Nội đầu tư hơn 1.800 tỷ đồng "khơi thông" ùn tắc</a>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content2 feature">
+                        <div class="row">
+                            <div class="">
+                                <div class="dt-list">
+                                    <div class="dt-list__item">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/11/15/lanh-dao-kiem-lam-dak-nong-2021-anh-chup-man-hinh-crop-1636972099735.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Hạt trưởng kiểm lâm gác chân lên bàn làm đơn xin từ chức
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/12/10/singaporereuters-crop-1639117019738.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Singapore ghi nhận ca nhiễm Omicron cộng đồng đầu tiên
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/12/10/evergrandeepa-crop-1639114829549.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Evergrande bị vỡ nợ: Điều gì sẽ xảy ra tiếp theo?
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/06/29/me-linh-4-crop-1624901379999.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        Gần 400 dự án chậm tiến độ tại Hà Nội: Thu hồi được 10
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dt-list__item mt-3">
+                                        <a href="">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <img width="100%" src="https://icdn.dantri.com.vn/zoom/360_240/2021/12/11/pogba-12-crop-1639189359193.jpeg">
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <h3 class="news-item__title">
+                                                        HLV Rangnick tuyên bố không giữ chân nếu Paul Pogba muốn rời Man Utd
+                                                    </h3>
+                                                    <p>(Dân trí) - Trong đơn từ chức của mình, ông T. cho rằng sức khỏe không tốt và để xảy ra mất đoàn kết nội bộ nên chủ động xin từ chức Hạt trưởng Hạt Kiểm lâm huyện Đắk R'Lấp, tỉnh Đắk Nông.
+                                                    </p>
+                                                    <p style="color: #8e8e8e">
+                                                        <b>Xã hội</b> - 2 giờ trước
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Cơ quan của Bộ Lao động - Thương binh và Xã hội</p>
+                    <p>Tổng biên tập: Phạm Tuấn Anh</p>
+                    <p>Giấy phép hoạt động báo điện tử Dân trí số 298/GP - BTTTT Hà Nội, ngày 15-07-2020.</p>
+                    <p>Tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa, Hà Nội</p>
+                    <p>Văn phòng đại diện miền Nam: 51 Võ Văn Tần, Phường Võ Thị Sáu, Quận 3, TP HCM</p>
+                    <p>Điện thoại: 024-3736-6491. Fax: 024-3736-6491</p>
+                    <p>Hotline HN: 0973-567-567. Hotline TP HCM: 0974-567-567</p>
+                    <p>Email: info@dantri.com.vn. Website: https://dantri.com.vn</p>
+                    <p>Chính sách quyền riêng tư.</p>
+                    <p>Mọi hành động sử dụng nội dung đăng tải trên Báo điện tử Dân trí tại địa chỉ dantri.com.vn phải có sự đồng ý bằng văn bản của Báo điện tử Dân trí.</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Liên hệ quảng cáo: 0945.54.03.03
+                    </p>
+                    <p>Email: quangcao@dantri.com.vn</p>
+                    <p><b>Xem bản mobile</b></p>
+                    <p>Theo dõi dân trí trên:
+
+                        <img src="https://cdnweb.dantri.com.vn/bundle/static/assets/yt.png?v=1208093636">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
